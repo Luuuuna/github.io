@@ -1,0 +1,322 @@
+@media (max-width: 768px) {
+   
+    /*header=====================================================================*/
+ 
+    .header {
+       padding: 0 18px;
+    }
+    .header-navigation {
+        display: none;
+    }
+    .phone a {
+        color: #FFFFFF;
+    }
+    .button {
+        display: none;
+    }
+
+    /*section 1 hero===============================================================*/
+
+    .hero {
+        padding-top: 85px;
+        padding-left: 18px;
+        padding-right: 18px;
+        max-height: 476px;
+    }
+    
+    .title {
+        font-size: 22px;
+        line-height: 130%;
+        text-align: center;
+    }
+    .text {
+        font-size: 14px;
+        width: 95vw;
+        line-height: 135%;
+    }
+    .button-hero {
+        display: block;
+        width: 90vw;
+        margin-top: 25px;
+    }
+
+    /*section 2 black=============================================================*/
+    
+    .black {
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .black-ul {
+    display: none;
+    }
+    .black-center {
+        flex-direction: column;
+        padding-right: 17px;
+    }
+    .black-left {
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .complited-projects {
+        text-align: center;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .p {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 22px;
+    }
+    .black-h4 {
+        font-size: 14px;
+    }
+    .black-s {
+        margin-top: 320px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 18px;
+    }
+    
+    .black-button {
+        position: relative;
+        bottom: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .black-images {
+        display: block;
+        position: relative;
+        top: -246px;
+        width: 90vw;
+        height: 214px;
+
+    }
+    .black-images1 {
+        display: none;
+    }
+    .black-images2 {
+        display: block;
+        height: 214px;
+        width: 90vw;
+    }
+    .black-arrows {
+        display: none;
+    }
+
+    /*section 3 video===========================================================================*/
+
+    .video {
+        background-color: #131313;
+        height: 870px;
+    }
+    .video-man {
+        width: 90vw;
+        height: 207px;
+        padding-left: 17px;
+        padding-right: 17px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 51px;
+    }
+    .video-button {
+        width: 37px;
+        height: 37px;
+    }
+    .video-p {
+        color: #FFFFFF;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .video-form-container {
+        margin-top: 0;
+        margin-left: 17px;
+        margin-right: 17px;
+        flex-direction: column;
+    }
+    .video-label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input {
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        background: #131313;
+        width: 90vw;
+    }
+    .video-label:first-child {
+        margin-bottom: 63px;
+        margin-right: 0;
+    }
+    .input::placeholder {
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    .video-form_span {
+        color: #FFFFFF;
+    }
+    .custom-checkbox {
+        margin-top: -88px;
+    }
+    .button_form {
+        display: block;
+        width: 90vw;
+        margin: 0;
+        margin-top: 106px;
+    }
+
+    /*section 4 rapair============================================*/
+
+    .rapair-block img {
+        height: 365px;
+        width: 100%;
+    }
+    .rapair-foto-price {
+        display: flex;
+        flex-direction: column;
+    }
+    .rapair-foto {
+        margin-bottom: 59px;
+        margin-left: 18px;
+        margin-right: 17px;
+    }
+    .rapair-ul {
+        margin-left: 0;
+    }
+    .rapair-from {
+        margin-left: 0;
+    }
+
+    /*section 5 contact*================================*/
+
+    .contact {
+        display: none;
+    }
+
+    /*section 6 fantasies====================================*/
+
+    .fantasies {
+        padding-top: 0;
+        height: 60px;
+    }
+    .fantasies-mobile-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .fantasies-mobile-img_button {
+        border-radius: 50%;
+    }
+    .fantasies-mobile-img_button-left {
+        position: relative;
+        left: 65px
+    }
+    .fantasies-mobile-img_button-right {
+        position: relative;
+        right: 65px
+    }
+    .fantasies-mobile-image {
+        display: block;
+        width: 100%;
+        height: 242px;
+        margin-top: 24px;
+        object-fit: cover;
+    }
+    .fantasies-img {
+        background-image: none;
+    }
+    .wildest-fanrasies {
+        margin-top: 0;
+        margin-left: 18px;
+        margin-right: 17px;
+        float: none;
+    }
+    .fantasies-overlay {
+        display: none;
+    }
+    .fantasies-ul {
+        display: none;
+    }
+    .fantasies-img1, .fantasies-img2, .fantasies-img3, .fantasies-img4 {
+        display: none;
+    }
+
+    /*section 7 our clients===================================*/
+
+    .our-clients {
+        display: none;
+    }
+
+    /*section 8 any=================================================================*/
+
+    .any {
+        width: 100vw;
+        padding-left: 18px;
+        padding-right: 17px;
+    }
+    .any-center {
+        margin-top: 173px;
+        width: 100%;
+    }
+    .any-form {
+        flex-direction: column;
+    }
+    .any-checkbox {
+        margin: 0;
+        margin-top: 21px;
+    }
+    .any-input {
+        width: 90vw;
+    }
+    .button-any {
+        display: block;
+        width: 90vw;
+        margin: 0;
+        margin-top: 67px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*section 9 map================================================================*/
+    .map {
+        height: 960px;
+    }
+    img.map-img {
+        height: 255px;
+        width: 90vw;
+        object-fit: cover;
+        padding-top: 20px;
+    }
+    .map-group {
+        position: relative;
+        top: 500px;
+    }
+    img.map-email, img.map-insta {
+        width: 39px;
+        height: 39px;
+    }
+    .map-icons {
+        margin-top: 23px;
+    }
+    
+    /*footer========================================================================*/
+
+    .footer {
+        display: none;
+    }
+
+
+
+}
+
+
+    
+
+    
+   
+    
+    
+    
+
